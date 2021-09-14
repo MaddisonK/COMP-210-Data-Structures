@@ -1,0 +1,20 @@
+Roadtrip Explanation:
+
+    My scores for each category were from 0-5, with 0 having the least of the category in question
+and 5 having the greatest, except traffic has a minimum value of 1.
+My weight calculation prioritizes traffic and distance foremost but also has an emphasis on
+scenery and attractions. In order prioritize traffic and distance, these values are multiplied which can create a very
+large value for long distances with high traffic, which makes sense. Then scenery is scaled up 100 times and subtracted
+from the weight to give that path a higher priority and attractions are scaled up by 50 times because it is not as
+important as scenery.
+
+Roadtrip Overview:
+
+    According to my algorithm, my first stop will be at Nashville which has a path weight of 1026 from Chapel Hill,
+where I will enjoy passing through Pisgah National Forest. From Nashville, I will reach Denver with a path weight of
+1168 and enjoy having no traffic and the desert scenery. Denver to Phoenix will be the next trip with a weight of
+1592 where I hope to see the Camelback Mountain. Finally, I will reach LA from a path weight of 769 from Phoenix or
+a total path weight of 4555 from Chapel Hill and I will rest at the Santa Monica Pier and wade in the waters.
+
+
+
